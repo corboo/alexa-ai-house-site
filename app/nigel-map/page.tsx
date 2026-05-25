@@ -138,6 +138,90 @@ const connections = [
   },
 ];
 
+const seoPoints = [
+  {
+    icon: "🔗",
+    title: "Cross-Linking Signals",
+    description: "Multi-platform presence creates a web of cross-links — YouTube embeds on blog posts, podcast show notes linking to Instagram, MCP directory listings pointing back to landing pages. Each link reinforces Nigel's authority in Google's eyes.",
+  },
+  {
+    icon: "🏛️",
+    title: "Entity Recognition & Knowledge Panel",
+    description: "Google rewards entities with consistent, verified presence across platforms. As \"Nigel Thistledown\" appears on YouTube, Apple Podcasts, Instagram, MCP directories, and more — Google begins to recognize him as a real entity. Knowledge Panel potential grows with every new platform.",
+  },
+  {
+    icon: "🎯",
+    title: "Multi-Intent Search Coverage",
+    description: "Each channel ranks for different search intents — podcasts for \"garden tips audio\", YouTube for \"how to prune roses\", Instagram for visual inspiration, blog for long-form \"when to plant tomatoes in zone 7\". Together, they own the full search landscape.",
+  },
+  {
+    icon: "🗣️",
+    title: "Voice Search Capture",
+    description: "Alexa captures the growing voice-first search market. When someone asks \"Alexa, how do I fix yellow tomato leaves?\" — Nigel answers. Voice search is projected to account for 50% of all searches, and Nigel is already there.",
+  },
+  {
+    icon: "🤖",
+    title: "AI Search — The Next Paradigm",
+    description: "MCP presence puts Nigel inside AI assistants — Claude, ChatGPT tool use, and other LLM-powered interfaces. When AI is the search engine, Nigel is already a tool in the toolbox. This is SEO for the post-Google era.",
+  },
+  {
+    icon: "👤",
+    title: "Authority Entity Building",
+    description: "All channels reinforce \"Nigel Thistledown\" as a recognizable gardening authority. Consistent name, consistent expertise, consistent voice across every platform. Google's E-E-A-T (Experience, Expertise, Authority, Trust) framework rewards exactly this pattern.",
+  },
+];
+
+const nextChannels = [
+  {
+    emoji: "🐦",
+    name: "Twitter / X",
+    rationale: "Garden Twitter is active and engaged — quick tips, seasonal threads, community engagement. Links back to podcast episodes and blog posts. Great for real-time conversation and driving traffic to long-form content.",
+    audience: "Active gardeners, plant enthusiasts, garden media",
+    effort: "Low",
+    impact: "Medium",
+  },
+  {
+    emoji: "🎵",
+    name: "TikTok",
+    rationale: "Massive gardening community — #GardenTok has billions of views. Short-form video repurposed from YouTube Shorts. Huge organic discovery potential with the algorithm favoring new creators in niche topics.",
+    audience: "Younger gardeners, Gen Z/Millennial plant parents",
+    effort: "Low (repurposed)",
+    impact: "High",
+  },
+  {
+    emoji: "📌",
+    name: "Pinterest",
+    rationale: "Gardening is one of Pinterest's top categories. Visual pins drive evergreen traffic to blog and YouTube for months or years. High purchase intent audience makes it ideal for Amazon Associates conversions.",
+    audience: "Home gardeners, DIY landscapers, seasonal planners",
+    effort: "Medium",
+    impact: "High",
+  },
+  {
+    emoji: "🌐",
+    name: "Blog / Website",
+    rationale: "Dedicated nigelthistledown.com or blog section. The SEO foundation for all other channels — long-form articles, garden plans, seasonal guides, and structured data. Every other channel links back here.",
+    audience: "Search traffic, long-form readers, SEO",
+    effort: "High",
+    impact: "Very High",
+  },
+  {
+    emoji: "📧",
+    name: "Newsletter / Email",
+    rationale: "Direct audience ownership — not dependent on algorithm changes. Weekly garden tips, seasonal reminders, and curated product recommendations. The only channel where you own the relationship entirely.",
+    audience: "Loyal followers, repeat visitors, high-value subscribers",
+    effort: "Medium",
+    impact: "High",
+  },
+  {
+    emoji: "👥",
+    name: "Facebook Group",
+    rationale: "Community building: \"Nigel's Garden Community\" — Q&A, photo sharing, peer support. Groups drive daily engagement and create a self-sustaining community that generates content organically. Nigel can participate as a character.",
+    audience: "Community-oriented gardeners, older demographics",
+    effort: "Medium",
+    impact: "Medium",
+  },
+];
+
 const statusConfig = {
   LIVE: { label: "LIVE", color: "bg-[var(--color-green-accent)]", textColor: "text-[var(--color-navy)]", dotColor: "bg-[var(--color-green-accent)]", glowColor: "shadow-[0_0_12px_rgba(74,222,128,0.4)]" },
   BETA: { label: "BETA", color: "bg-[var(--color-gold)]", textColor: "text-[var(--color-navy)]", dotColor: "bg-[var(--color-gold)]", glowColor: "shadow-[0_0_12px_rgba(212,168,71,0.4)]" },
@@ -179,6 +263,8 @@ export default function NigelMap() {
             <a href="#constellation" className="hover:text-[var(--color-gold)] transition-colors">Constellation</a>
             <a href="#channels" className="hover:text-[var(--color-gold)] transition-colors">Channels</a>
             <a href="#connections" className="hover:text-[var(--color-gold)] transition-colors">Connections</a>
+            <a href="#seo" className="hover:text-[var(--color-gold)] transition-colors">SEO</a>
+            <a href="#next" className="hover:text-[var(--color-gold)] transition-colors">Next Channels</a>
             <a href="#stats" className="hover:text-[var(--color-gold)] transition-colors">Stats</a>
           </nav>
         </div>
@@ -488,6 +574,188 @@ export default function NigelMap() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* The SEO Flywheel */}
+      <section id="seo" className="mx-auto max-w-6xl px-6 py-20">
+        <div className="text-center mb-16">
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--color-gold)] mb-3">
+            Search Visibility
+          </h3>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            The SEO Flywheel
+          </h2>
+          <p className="text-[var(--color-text-secondary)] mt-4 max-w-2xl mx-auto">
+            Every channel Nigel occupies makes every other channel more discoverable. Multi-platform presence compounds into search authority — from traditional Google to voice and AI search.
+          </p>
+        </div>
+
+        {/* Visual flywheel diagram */}
+        <div className="glass-card gradient-border rounded-2xl p-8 md:p-10 mb-12">
+          <h4 className="text-lg font-semibold text-[var(--color-gold)] mb-6 text-center">
+            How Multi-Platform Presence Compounds
+          </h4>
+          <div className="flex flex-wrap items-center justify-center gap-3 md:gap-2">
+            {[
+              { icon: "🌐", label: "Blog ranks in Google" },
+              { icon: "📺", label: "YouTube embeds on blog" },
+              { icon: "🎙️", label: "Podcast notes link back" },
+              { icon: "📸", label: "Instagram drives social proof" },
+              { icon: "🤖", label: "MCP adds AI discovery" },
+              { icon: "🏛️", label: "Google recognizes entity" },
+              { icon: "📈", label: "All channels rank higher" },
+            ].map((step, i, arr) => (
+              <div key={step.label} className="flex items-center gap-2 md:gap-3">
+                <div className="flex flex-col items-center gap-2 min-w-[100px]">
+                  <div className="w-14 h-14 rounded-xl bg-[var(--color-navy)] border border-[var(--color-border)] flex items-center justify-center text-xl">
+                    {step.icon}
+                  </div>
+                  <span className="text-xs font-medium text-[var(--color-text-secondary)] text-center leading-tight">
+                    {step.label}
+                  </span>
+                </div>
+                {i < arr.length - 1 && (
+                  <span className="text-[var(--color-gold)] text-lg font-bold hidden md:block">→</span>
+                )}
+              </div>
+            ))}
+          </div>
+          <p className="text-center text-xs text-[var(--color-text-muted)] mt-6">
+            ↻ The last step feeds back into the first — a true compounding loop
+          </p>
+        </div>
+
+        {/* SEO Signals Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          {seoPoints.map((point) => (
+            <div key={point.title} className="glass-card rounded-xl p-6 hover:border-[var(--color-gold)]/30 transition-all duration-300">
+              <div className="text-2xl mb-3">{point.icon}</div>
+              <h4 className="text-base font-semibold mb-2 text-[var(--color-text-primary)]">
+                {point.title}
+              </h4>
+              <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+                {point.description}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Search Intent Coverage Table */}
+        <div className="glass-card gradient-border rounded-2xl p-6 md:p-8 overflow-x-auto">
+          <h4 className="text-sm font-semibold text-[var(--color-gold)] mb-4">🎯 Search Intent Coverage by Channel</h4>
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-[var(--color-border)]">
+                <th className="text-left py-3 px-3 text-[var(--color-text-muted)] font-semibold">Channel</th>
+                <th className="text-left py-3 px-3 text-[var(--color-text-muted)] font-semibold">Search Intent</th>
+                <th className="text-left py-3 px-3 text-[var(--color-text-muted)] font-semibold">Example Query</th>
+                <th className="text-left py-3 px-3 text-[var(--color-text-muted)] font-semibold">Search Engine</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { channel: "🎙️ Podcast", intent: "Audio / Listen", query: "\"garden tips podcast\"", engine: "Apple, Spotify, Google" },
+                { channel: "📺 YouTube", intent: "How-to / Visual", query: "\"how to prune roses video\"", engine: "YouTube, Google" },
+                { channel: "📸 Instagram", intent: "Inspiration / Visual", query: "\"garden design ideas\"", engine: "Instagram, Google Images" },
+                { channel: "📝 Blog", intent: "Long-form / Research", query: "\"when to plant tomatoes zone 7\"", engine: "Google, Bing" },
+                { channel: "🔊 Alexa", intent: "Voice / Immediate", query: "\"Alexa, how do I fix yellow leaves\"", engine: "Alexa Voice" },
+                { channel: "🤖 MCP", intent: "AI / Tool Use", query: "\"garden planning tool for Claude\"", engine: "AI Assistants" },
+              ].map((row) => (
+                <tr key={row.channel} className="border-b border-[var(--color-border)]/50">
+                  <td className="py-3 px-3 font-semibold text-[var(--color-text-primary)]">{row.channel}</td>
+                  <td className="py-3 px-3 text-[var(--color-gold)]">{row.intent}</td>
+                  <td className="py-3 px-3 text-[var(--color-text-secondary)] italic">{row.query}</td>
+                  <td className="py-3 px-3 text-[var(--color-text-secondary)]">{row.engine}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Next Channels — Future Expansion */}
+      <section id="next" className="bg-[var(--color-navy-light)] border-y border-[var(--color-border)]">
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <div className="text-center mb-16">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--color-gold)] mb-3">
+              Expansion Roadmap
+            </h3>
+            <h2 className="text-3xl md:text-4xl font-bold">
+              Next Channels
+            </h2>
+            <p className="text-[var(--color-text-secondary)] mt-4 max-w-2xl mx-auto">
+              Six high-impact channels on the horizon — each chosen for strategic fit with Nigel&apos;s gardening authority and the existing content flywheel.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {nextChannels.map((channel) => (
+              <div key={channel.name} className="personality-card glass-card gradient-border rounded-2xl p-6">
+                <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-12 h-12 rounded-xl bg-[var(--color-navy-lighter)] border border-[var(--color-border)] flex items-center justify-center text-2xl">
+                      {channel.emoji}
+                    </div>
+                    <h4 className="text-lg font-bold text-[var(--color-text-primary)]">{channel.name}</h4>
+                  </div>
+                  <span className="px-2.5 py-1 text-xs font-bold rounded-full bg-[var(--color-navy-lighter)] text-[var(--color-text-muted)] border border-[var(--color-border)]">
+                    PLANNED
+                  </span>
+                </div>
+
+                <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed mb-4">
+                  {channel.rationale}
+                </p>
+
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between rounded-lg bg-[var(--color-navy)] px-4 py-2.5">
+                    <span className="text-xs text-[var(--color-text-muted)]">Target Audience</span>
+                    <span className="text-xs font-medium text-[var(--color-text-secondary)]">{channel.audience}</span>
+                  </div>
+                  <div className="flex items-center justify-between rounded-lg bg-[var(--color-navy)] px-4 py-2.5">
+                    <span className="text-xs text-[var(--color-text-muted)]">Setup Effort</span>
+                    <span className={`text-xs font-bold ${channel.effort === "Low" || channel.effort === "Low (repurposed)" ? "text-[var(--color-green-accent)]" : channel.effort === "Medium" ? "text-[var(--color-gold)]" : "text-amber-500"}`}>
+                      {channel.effort}
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between rounded-lg bg-[var(--color-navy)] px-4 py-2.5">
+                    <span className="text-xs text-[var(--color-text-muted)]">Potential Impact</span>
+                    <span className={`text-xs font-bold ${channel.impact === "Very High" ? "text-[var(--color-green-accent)]" : channel.impact === "High" ? "text-[var(--color-gold)]" : "text-[var(--color-text-secondary)]"}`}>
+                      {channel.impact}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Priority Matrix */}
+          <div className="glass-card rounded-2xl p-8 max-w-3xl mx-auto mt-12">
+            <h4 className="text-lg font-semibold text-[var(--color-gold)] mb-4 text-center">
+              🎯 Recommended Priority Order
+            </h4>
+            <div className="space-y-3">
+              {[
+                { rank: "1", name: "Blog / Website", reason: "SEO foundation — every other channel benefits", badge: "bg-[var(--color-green-accent)] text-[var(--color-navy)]" },
+                { rank: "2", name: "TikTok", reason: "Lowest effort (repurpose YouTube Shorts), highest discovery", badge: "bg-[var(--color-green-accent)] text-[var(--color-navy)]" },
+                { rank: "3", name: "Pinterest", reason: "Evergreen traffic + high purchase intent for Associates", badge: "bg-[var(--color-gold)] text-[var(--color-navy)]" },
+                { rank: "4", name: "Newsletter / Email", reason: "Audience ownership — algorithm-proof distribution", badge: "bg-[var(--color-gold)] text-[var(--color-navy)]" },
+                { rank: "5", name: "Twitter / X", reason: "Community engagement + real-time garden conversation", badge: "bg-[var(--color-navy-lighter)] text-[var(--color-text-secondary)]" },
+                { rank: "6", name: "Facebook Group", reason: "Community building — self-sustaining once established", badge: "bg-[var(--color-navy-lighter)] text-[var(--color-text-secondary)]" },
+              ].map((item) => (
+                <div key={item.rank} className="flex items-center gap-4 rounded-lg bg-[var(--color-navy)] px-4 py-3">
+                  <span className={`flex-shrink-0 w-7 h-7 rounded-full ${item.badge} flex items-center justify-center text-xs font-bold`}>
+                    {item.rank}
+                  </span>
+                  <div className="flex-1">
+                    <span className="text-sm font-semibold text-[var(--color-text-primary)]">{item.name}</span>
+                    <span className="text-sm text-[var(--color-text-muted)]"> — {item.reason}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
