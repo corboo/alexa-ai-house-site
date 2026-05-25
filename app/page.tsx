@@ -323,18 +323,6 @@ export default function Home() {
           </h2>
         </div>
 
-        {/* Alexa Fund Highlight */}
-        <div className="glass-card gradient-border rounded-2xl p-8 md:p-10 mb-10 text-center">
-          <div className="text-4xl mb-4">🏦</div>
-          <h4 className="text-xl md:text-2xl font-bold text-[var(--color-gold)] mb-3">
-            Amazon Alexa Fund — $1M Investment Potential
-          </h4>
-          <p className="text-[var(--color-text-secondary)] max-w-2xl mx-auto leading-relaxed">
-            IPAI is in <strong className="text-[var(--color-text-primary)]">active discussions</strong> with the Amazon Alexa Fund.
-            AI personalities on Alexa represent a new category of voice-first content — exactly the kind of innovative developer experience Amazon invests in.
-          </p>
-        </div>
-
         {/* Revenue Streams */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
           <div className="glass-card rounded-xl p-6">
