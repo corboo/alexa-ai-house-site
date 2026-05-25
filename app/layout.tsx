@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "My AI House — Alexa Skill | Inception Point AI",
-  description: "Talk to AI Personalities Through Alexa. Conversational AI companions powered by OAISYS.",
+  title: "Nigel's Garden — Alexa Skill | Inception Point AI",
+  description: "Talk to Nigel Thistledown through Alexa. AI gardening companion powered by OpenAI + AWS Lambda.",
   openGraph: {
-    title: "My AI House — Alexa Skill",
-    description: "Talk to AI Personalities Through Alexa",
+    title: "Nigel's Garden — Alexa Skill",
+    description: "Talk to Nigel Thistledown through Alexa — your AI gardening companion",
     type: "website",
   },
 };
