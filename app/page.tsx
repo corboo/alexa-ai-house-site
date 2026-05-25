@@ -207,6 +207,7 @@ export default function Home() {
             <a href="#architecture" className="hover:text-[var(--color-gold)] transition-colors">Architecture</a>
             <a href="#personalities" className="hover:text-[var(--color-gold)] transition-colors">Personalities</a>
             <a href="#roadmap" className="hover:text-[var(--color-gold)] transition-colors">Roadmap</a>
+            <a href="/nigel-map" className="hover:text-[var(--color-gold)] transition-colors">Nigel Map</a>
           </nav>
         </div>
       </header>
